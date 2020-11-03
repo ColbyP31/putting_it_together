@@ -10,8 +10,7 @@ class PersonCard extends Component {
             }
 
         agePlus = () =>{
-            this.state.age += 1;
-            this.setState({age: this.state.age});
+            this.setState({age: this.state.age + 1});
     }
             
     render() {
